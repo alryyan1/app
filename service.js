@@ -1,8 +1,7 @@
-var Service = require('node-windows').Service;
-
+import { Service } from 'node-windows';
 // Create a new service object
 var svc = new Service({
-  name:'wael web server service 4 ',
+  name:'jawda web service ',
   description: 'The nodejs.org example web server.',
   script: 'C:/app/test.js',
   nodeOptions: [
